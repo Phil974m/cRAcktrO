@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CraCktrO_test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Neo\AppData\Local\Temp\RSP7587.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/CraCktrO_test.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\dev\demoscene006\CraCktrO_test\OpenGLAnim.cpp"
+]
+Creating command line "cl.exe @C:\Users\Neo\AppData\Local\Temp\RSP7587.tmp" 
+Creating temporary file "C:\Users\Neo\AppData\Local\Temp\RSP7588.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib VFW32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CraCktrO_test.pdb" /debug /machine:I386 /out:"Debug/CraCktrO_test.exe" /pdbtype:sept 
+.\Debug\BitmapViewer.obj
+.\Debug\camera.obj
+.\Debug\CraCktrO_test.obj
+.\Debug\CraCktrO_testDlg.obj
+.\Debug\effet_particule.obj
+.\Debug\MatrixStatic.obj
+.\Debug\OpenGLAnim.obj
+.\Debug\OpenGLDevice.obj
+.\Debug\StdAfx.obj
+.\Debug\CraCktrO_test.res
+]
+Creating command line "link.exe @C:\Users\Neo\AppData\Local\Temp\RSP7588.tmp"
+<h3>Output Window</h3>
+Compiling...
+OpenGLAnim.cpp
+C:\dev\demoscene006\CraCktrO_test\OpenGLAnim.cpp(164) : warning C4101: 'cy' : unreferenced local variable
+Linking...
+LINK : LNK6004: Debug/CraCktrO_test.exe not found or not built by the last incremental link; performing full link
+
+
+
+<h3>Results</h3>
+CraCktrO_test.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

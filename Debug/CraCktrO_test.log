@@ -1,0 +1,131 @@
+﻿cl : Ligne de commande warning D9035: l'option 'Gm' est déconseillée et sera supprimée dans une version ultérieure
+cl : Ligne de commande warning D9007: '/Gm' requiert '/Zi ou /ZI' ; option ignorée
+  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  
+  NOTE: WINVER has been defined as 0x0500 or greater which enables
+  Windows NT 5.0 and Windows 98 features. When these headers were released,
+  Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+  
+  For this release when WINVER is defined as 0x0500 or greater, you can only
+  build beta or test applications.  To build a retail application,
+  set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+  to see if retail Windows NT 5.0 or Windows 98 headers are available.
+  
+  See the SDK release notes for more information.
+  
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxv_w32.h(220): error C2065: 'DWORD_PTR' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxv_w32.h(220): error C2143: erreur de syntaxe : absence de ';' avant 'GetWindowThreadProcessId'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxv_w32.h(246): error C2065: '_In_' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxv_w32.h(246): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'HGLOBAL'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxv_w32.h(246): error C2143: erreur de syntaxe : absence de ';' avant '{'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxv_w32.h(246): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlalloc.h(66): error C2065: 'LLONG_MIN' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlalloc.h(66): error C2131: l'expression n'a pas été évaluée en constante
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlalloc.h(66): note: nous avons rencontré une (sous-)expression non constante
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlalloc.h(67): error C2065: 'LLONG_MAX' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlalloc.h(67): error C2131: l'expression n'a pas été évaluée en constante
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlalloc.h(67): note: nous avons rencontré une (sous-)expression non constante
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlalloc.h(75): error C2065: 'ULLONG_MAX' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlalloc.h(75): error C2131: l'expression n'a pas été évaluée en constante
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlalloc.h(75): note: nous avons rencontré une (sous-)expression non constante
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlalloc.h(641): error C3861: '_resetstkoflw' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(85): error C2061: erreur de syntaxe : identificateur 'LONG_PTR'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(85): error C2146: erreur de syntaxe : absence de '(' avant l'identificateur 'LONG_PTR'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(87): error C2061: erreur de syntaxe : identificateur 'LONG_PTR'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(87): error C2146: erreur de syntaxe : absence de '(' avant l'identificateur 'LONG_PTR'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(746): error C3861: 'memcpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(755): error C3861: 'wcscat_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(1253): error C3861: 'memcpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(1261): error C3861: 'memcpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(1272): error C3861: 'memcpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(1291): error C3861: 'memcpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(1296): error C3861: 'memcpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(1339): error C3861: 'memcpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(1344): error C3861: 'memcpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(1486): error C3861: 'memcpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(1494): error C3861: 'memcpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlconv.h(1505): error C3861: 'memcpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(126): error C3646: 'BeginErrorCheck' : spécificateur de substitution inconnu
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(126): error C2059: erreur de syntaxe : ')'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(127): error C2334: jetons inattendus avant '{' ; corps apparent de la fonction ignoré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(358): error C2061: erreur de syntaxe : identificateur 'DWORD_PTR'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(161): error C3861: 'swprintf_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(168): error C3861: 'swprintf_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(183): error C3861: 'swprintf_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(192): error C3861: 'swprintf_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(198): error C3861: '_CrtDbgReportW' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(239): error C3861: '_vscprintf' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(253): error C3861: '_vsnprintf_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(290): error C2065: '_CRT_INTERNAL_LOCAL_PRINTF_OPTIONS' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(291): error C2065: '_CRT_INTERNAL_PRINTF_STANDARD_SNPRINTF_BEHAVIOR' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(292): error C2065: '_CRT_INTERNAL_PRINTF_LEGACY_WIDE_SPECIFIERS' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(289): error C3861: '__stdio_common_vswprintf' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(316): error C2065: '_CRT_INTERNAL_LOCAL_PRINTF_OPTIONS' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(317): error C2065: '_CRT_INTERNAL_PRINTF_LEGACY_WIDE_SPECIFIERS' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(315): error C3861: '__stdio_common_vsnwprintf_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(349): error C3861: 'swprintf_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(351): error C3861: 'wcscpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(361): error C2065: 'nLevel' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(361): error C2065: 'dwCategory' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(381): error C2065: 'DWORD_PTR' : identificateur non déclaré
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(381): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'dwCategory'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(383): error C2143: erreur de syntaxe : absence de ';' avant '{'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atltrace.h(383): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afx.h(502): error C7525: les variables inline nécessitent au moins '/std:c++17'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afx.h(502): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afx.h(502): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'AfxCrtErrorCheck'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afx.h(502): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'error'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afx.h(503): error C2143: erreur de syntaxe : absence de ';' avant '{'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afx.h(503): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afx.h(528): error C2039: 'clearerr_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afx.h(528): error C3861: 'clearerr_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afx.h(528): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(30): error C7525: les variables inline nécessitent au moins '/std:c++17'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(30): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(30): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'AtlCrtErrorCheck'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(30): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'nError'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(31): error C2143: erreur de syntaxe : absence de ';' avant '{'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(31): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(69): error C2039: 'memcpy_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(69): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(78): error C2039: 'wmemcpy_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(78): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(87): error C2039: 'memmove_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(87): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(95): error C2039: 'strcpy_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(95): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(103): error C2039: 'wcscpy_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(103): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(111): error C2039: '_tcscpy_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(111): error C3861: '_tcscpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(111): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(114): error C2143: erreur de syntaxe : absence de ';' avant '__cdecl'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(114): error C7525: les variables inline nécessitent au moins '/std:c++17'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(114): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(119): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(120): error C2039: 'strncpy_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(120): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(123): error C2143: erreur de syntaxe : absence de ';' avant '__cdecl'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(123): error C7525: les variables inline nécessitent au moins '/std:c++17'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(123): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(123): error C2086: 'int ATL::Checked::errno_t' : redéfinition
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(114): note: voir la déclaration de 'ATL::Checked::errno_t'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(128): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(129): error C2039: 'wcsncpy_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(129): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(132): error C2143: erreur de syntaxe : absence de ';' avant '__cdecl'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(132): error C7525: les variables inline nécessitent au moins '/std:c++17'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(132): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(132): error C2086: 'int ATL::Checked::errno_t' : redéfinition
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(114): note: voir la déclaration de 'ATL::Checked::errno_t'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(137): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(138): error C2039: '_tcsncpy_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(138): error C3861: '_tcsncpy_s' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(138): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(146): error C2039: 'strcat_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(146): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(154): error C2039: 'wcscat_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(154): error C3861: 'AfxCrtErrorCheck' : identificateur introuvable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(162): error C2039: '_tcscat_s' : n'est pas membre de '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\atlchecked.h(162): fatal error C1003: le nombre d'erreurs est supérieur à 100 ; arrêt de la compilation
